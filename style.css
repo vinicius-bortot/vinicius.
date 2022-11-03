@@ -1,29 +1,31 @@
 body{
-    background-color: black;
+    background-color: red;
 }
 h1{
-    color: red;
     font-size: 30px;
     text-align: center;  
 }
 h2{
-    color: yellow;
+    color: white;
     font-size: 40px;
     text-align: justify;
     text-align: center;
 }
 p{
-    color: white;
     text-align: justify;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 ol{
-    color: orangered;
+    color: gray;
 }
 ul{
-    color: green;
+    color: gray;
 }
 table{
-    color: blue;
+    color: gray;
+}
+.wrapper {
+    display: grid;
+    text-align: center;
 }
