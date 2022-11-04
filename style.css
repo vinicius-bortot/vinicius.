@@ -8,8 +8,13 @@ h1{
 h2{
     color: white;
     font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     text-align: center;
+}
+h3{
+    color: black;
+    font-size: 30px;
 }
 p{
     text-align: justify;
@@ -27,5 +32,6 @@ table{
 }
 .wrapper {
     display: grid;
-    text-align: center;
+    display: flex;
+    text-align: center; 
 }
