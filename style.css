@@ -1,20 +1,22 @@
 body{
-    background-color: red;
+    background-color: whitesmoke;
 }
 h1{
+
     font-size: 30px;
     text-align: center;  
 }
 h2{
-    color: white;
+    color: black;
     font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: justify;
     text-align: center;
 }
 h3{
-    color: black;
-    font-size: 30px;
+    color: yellowgreen;
+    font-size: 40px;
+    text-align: justify;
+    text-align: center;
 }
 p{
     text-align: justify;
@@ -22,16 +24,19 @@ p{
     text-align: center;
 }
 ol{
-    color: gray;
+    color: blue;
 }
 ul{
-    color: gray;
+    color: blue;
 }
 table{
-    color: gray;
+    color: blue;
 }
 .wrapper {
     display: grid;
-    display: flex;
-    text-align: center; 
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
 }
